@@ -51,6 +51,3 @@ flutter run
 
 
 
-## Author
-
-**Noor Essam Jandali** — [GitHub](https://github.com/nooressam1) · [LinkedIn](https://linkedin.com/in/NoorJandali)
