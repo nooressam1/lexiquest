@@ -1,16 +1,56 @@
-# lexiquest
+# LexiQuest 🔤
 
-A new Flutter project.
+A gamified word quest mobile app built with Flutter. Users receive word quests and complete them by photographing the word in the real world using their device camera and OCR scanning.
+
+---
+
+## Features
+
+-  **Camera + OCR** — Complete quests by capturing the target word in the real world
+-  **Interactive Map** — View locations where you've previously completed quests
+-  **Real-Time Leaderboard** — Compete with other players and track your ranking
+-  **User Authentication** — Secure login and persistent sessions via Firebase
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | Flutter |
+| Backend & Auth | Firebase |
+| Maps | Google Maps |
+| Text Recognition | OCR / Camera Libraries |
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed
+- Firebase project set up
+- Google Maps API key
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/nooressam1/lexiquest.git
+cd lexiquest
+flutter pub get
+```
+
+Add your `google-services.json` (Android) or `GoogleService-Info.plist` (iOS) to the appropriate directory, then:
+
+```bash
+flutter run
+```
+
+---
+
+
+
+
+## Author
+
+**Noor Essam Jandali** — [GitHub](https://github.com/nooressam1) · [LinkedIn](https://linkedin.com/in/NoorJandali)
