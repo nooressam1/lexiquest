@@ -40,7 +40,7 @@ cd lexiquest
 flutter pub get
 ```
 
-Add your `google-services.json` (Android) or `GoogleService-Info.plist` (iOS) to the appropriate directory, then:
+Add your `google-services.json` (Android) to the appropriate directory, then:
 
 ```bash
 flutter run
